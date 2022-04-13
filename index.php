@@ -15,4 +15,5 @@ if (isset($_GET['action'])) {
    if(method_exists($sever_data,$method_name)){
        $sever_data->$method_name($_GET);
    }
+   //how to push it
 }
